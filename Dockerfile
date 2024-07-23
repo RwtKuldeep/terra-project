@@ -11,4 +11,4 @@ RUN pip install django==4.0.6
 
 EXPOSE 8000
 
-CMD ["python","runserver","manage.py","0.0.0.0:8000"]
+CMD ["python","manage.py","runserver","0.0.0.0:8000"]
